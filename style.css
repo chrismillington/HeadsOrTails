@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.coin {
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+}
+.coin img {
+  height: 30vh;
+}
+.sides {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.sides img {
+  height: 15vh;
+  border: 3px solid gray;
+}
+
+.result {
+  text-align: center;
+  font: 700 48pt Courier;
+  margin: 5rem 0;
+}
